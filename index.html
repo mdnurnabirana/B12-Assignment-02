@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Flower Market</title>
   </head>
-  <body>
+  <body class="bg-[rgb(245,248,255)]">
     <header
       class="max-w-[90%] sm:max-w-[80%] mx-auto my-0 flex justify-between items-center font-inter py-6"
     >
@@ -371,28 +371,64 @@
 
       <!-- Latest Deals -->
       <section class="mt-[120px]">
-        <h1 class="font-noto font-bold text-[50px] text-center"><span class="text-[#E95A08]">Latest </span>Deals</h1>
-        <p class="text-[#00000050] font-inter text-[22px] font-regular text-center mx-[10%]">
+        <h1 class="font-noto font-bold text-[50px] text-center">
+          <span class="text-[#E95A08]">Latest </span>Deals
+        </h1>
+        <p
+          class="text-[#00000050] font-inter text-[22px] font-regular text-center mx-[10%]"
+        >
           Indulge your senses with the beauty and fragrance of our fresh flower
           shop. From classic roses to exotic blooms, we offer a wide variety of
           fresh.
         </p>
-        <div class="grid grid-rows-3 sm:grid-cols-3 mt-[120px] gap-7 px-[5%] sm:px-0">
-          <div class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0)_0%,rgba(0,0,0,0.4)_50%,rgba(200,200,200,0.1)_100%),url('./assets/deal-bloom.png')] sm:row-span-1 flex flex-col justify-center items-center py-[65px] rounded-2xl ">
-            <h2 class="font-noto font-bold text-white text-[20px]">60% Off | Bloom Plant</h2>
-            <a class="font-inter font-semibold text-white underline" href="#">Shop Now</a>
+        <div
+          class="grid grid-rows-3 sm:grid-cols-3 mt-[120px] gap-7 px-[5%] sm:px-0"
+        >
+          <div
+            class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0)_0%,rgba(0,0,0,0.4)_50%,rgba(200,200,200,0.1)_100%),url('./assets/deal-bloom.png')] sm:row-span-1 flex flex-col justify-center items-center py-[65px] rounded-2xl"
+          >
+            <h2 class="font-noto font-bold text-white text-[20px]">
+              60% Off | Bloom Plant
+            </h2>
+            <a class="font-inter font-semibold text-white underline" href="#"
+              >Shop Now</a
+            >
           </div>
-          <div class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0)_0%,rgba(0,0,0,0.4)_50%,rgba(200,200,200,0.1)_100%),url('./assets/deal-zabo.png')] bg-cover sm:row-span-2 sm:col-span-2 flex flex-col justify-center items-center rounded-2xl ">
-            <h2 class="font-noto font-bold text-white text-[20px] sm:text-[40px]">25% Off | Zabo Plant</h2>
-            <a class="font-inter font-semibold  sm:text-[28px] text-white underline" href="#">Shop Now</a>
+          <div
+            class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0)_0%,rgba(0,0,0,0.4)_50%,rgba(200,200,200,0.1)_100%),url('./assets/deal-zabo.png')] bg-cover sm:row-span-2 sm:col-span-2 flex flex-col justify-center items-center rounded-2xl"
+          >
+            <h2
+              class="font-noto font-bold text-white text-[20px] sm:text-[40px]"
+            >
+              25% Off | Zabo Plant
+            </h2>
+            <a
+              class="font-inter font-semibold sm:text-[28px] text-white underline"
+              href="#"
+              >Shop Now</a
+            >
           </div>
-          <div class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0)_0%,rgba(0,0,0,0.4)_50%,rgba(200,200,200,0.1)_100%),url('./assets/deal-ana.png')] sm:row-span-1 flex flex-col justify-center items-center py-[65px] rounded-2xl ">
-            <h2 class="font-noto font-bold text-white text-[20px]">30% Off | Ana Plant</h2>
-            <a class="font-inter font-semibold text-white underline" href="#">Shop Now</a>
+          <div
+            class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0)_0%,rgba(0,0,0,0.4)_50%,rgba(200,200,200,0.1)_100%),url('./assets/deal-ana.png')] sm:row-span-1 flex flex-col justify-center items-center py-[65px] rounded-2xl"
+          >
+            <h2 class="font-noto font-bold text-white text-[20px]">
+              30% Off | Ana Plant
+            </h2>
+            <a class="font-inter font-semibold text-white underline" href="#"
+              >Shop Now</a
+            >
           </div>
-          
         </div>
       </section>
     </main>
+
+    <!-- Subscribe -->
+    <section class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0)_0%,rgba(0,0,0,0.4)_50%,rgba(200,200,200,0.1)_100%),url('./assets/news-letter-bg.png')] bg-no-repeat bg-cover">
+    <h1 class="text-center text-white font-noto font-bold text-[50px] pt-[200px] mb-[22px]">Join the colorful Bunch</h1>
+        <div class="w-[60%] relative mx-auto my-0">
+          <input class="bg-[white] w-full mb-[200px] py-[20px] px-[20px] border-none" type="text" name="subscribe" placeholder="Write email" id="subscribe">
+          <button class="text-white absolute right-0 top-0 bg-[rgb(233,90,8)] py-[20px] px-[50px] border-none">Subscribe</button>
+        </div>
+    </section>
   </body>
 </html>
